@@ -1,13 +1,16 @@
+/* Global Styles */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+/* Root Variables for Theming */
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
 }
 
+/* Dark Mode Media Query */
 @media (prefers-color-scheme: dark) {
   :root {
     --foreground-rgb: 255, 255, 255;
@@ -16,18 +19,73 @@
   }
 }
 
+/* Homepage Styles */
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  background-color: white;
+  padding: 1rem;
+  background-image: url('../app/images/rest2.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  margin: 0; 
+}
+
+h1 {
+  font-size: 48px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+li {
+  margin-top: 1%;
+}
+
+label {
+  color: black;
+}
+
+input {
+  color: black;
+}
+
+nav {
+  margin-left: -2%;
+  margin-right: -2%;
+  margin-top: -1.5%;
+  font-size: 20px;
 }
 
 @layer utilities {
   .text-balance {
     text-wrap: balance;
+  }
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 36px;
+    margin-left: 5%;
+  }
+  body {
+    margin: 0;
+  }
+
+  nav {
+    margin-top: -4%;
+  }
+}
+
+@media (max-width: 576px) {
+  h1 {
+    font-size: 24px;
+    margin-left: 2%;
+  }
+
+  nav {
+    font-size: 18px; 
+    margin-top: -6%;
+    margin-left: -5%;
+    margin-right: -5%; 
   }
 }

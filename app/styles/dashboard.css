@@ -1,0 +1,71 @@
+body {
+    background-color: orange;
+    background-image: url("../images/rest2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    margin: 0;
+}
+
+h1 {
+    color: white;
+    margin-top: 5%;
+    margin-right: 74%;
+    font-size: 40px;
+}
+
+p {
+    text-shadow:2px 2px 4px black;
+    font-weight:800;
+    color: white;
+    font-size: 15px;
+    margin-top: 2%;
+    margin-left: 2%;
+}
+
+/* dashboard.css */
+
+.image-container img {
+    width: 50%;
+    height: 30%;
+    margin-left: 3%;
+    border-radius: 15px;
+}
+
+
+.image-container2 img {
+    width: 50%;
+    height: 30%;
+    margin-left: -45%;
+    border-radius: 15px;
+}
+
+
+/* Media Query for Responsive Design */
+
+@media (max-width: 768px) {
+    h1 {
+        margin-left: auto; 
+    }
+    body {
+        background-size:500% 250%;
+    }
+
+    .image-container,
+    .image-container2 {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 20px; 
+    }
+
+    .image-container img,
+    .image-container2 img {
+        width: 100%;
+        height: auto;
+        margin-left: 0;
+    }
+}

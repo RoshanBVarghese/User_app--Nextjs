@@ -1,0 +1,54 @@
+{
+  "users": [
+    {
+      "username": "Roshan",
+      "email": "roshan@gmail.com",
+      "password": "roshan123",
+      "id": "fedd"
+    },
+    {
+      "username": "Hrithik",
+      "email": "hrithik@gmail.com",
+      "password": "hrithik123",
+      "id": "85d9"
+    },
+    {
+      "id": "bd7c",
+      "username": "Roshan1",
+      "email": "roshan1@gmail.com",
+      "password": "roshan123"
+    },
+    {
+      "id": "db9c",
+      "username": "Reshma",
+      "email": "reshma@gmail.com",
+      "password": "reshma123"
+    },
+    {
+      "id": "9fa2",
+      "username": "roshan",
+      "email": "roshan23@gmail.com",
+      "password": "roshan123"
+    },
+    {
+      "id": "d8da",
+      "username": "Roshan23",
+      "email": "md@gmail.com",
+      "password": "123"
+    },
+    {
+      "id": "84cf",
+      "username": "hamza",
+      "email": "h@gmail.com",
+      "password": "1234567",
+      "phoneNumber": "68498741"
+    },
+    {
+      "id": "b9bb",
+      "username": "hamza1",
+      "email": "h2@gmail.com",
+      "password": "1234567",
+      "phoneNumber": "68498741"
+    }
+  ]
+}
